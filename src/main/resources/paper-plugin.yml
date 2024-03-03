@@ -1,0 +1,4 @@
+name: PaperNoChatSigning
+version: '${version}'
+main: com.salt.papernochatsigning.PaperNoChatSigning
+api-version: '1.20'
