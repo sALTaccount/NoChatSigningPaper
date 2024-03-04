@@ -13,7 +13,7 @@ public class ChatListener implements Listener {
         plugin.getLogger().info("Removing chat signing from message: " + event.getMessage());
         String originalMessage = event.getMessage();
         // Add a space to the end of the message
-        // Messages are crypographically signed by the server, so modifying the message server side
+        // Messages are crypographically signed by the client, so modifying the message server side
         // will break the signing and cause the messages to be unreportable
         String modifiedMessage = originalMessage + " ";
         // Set the modified message back to the event
